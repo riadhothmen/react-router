@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #75849c;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Form styling*/
+
+form {
+  border-radius: 6px;
+  background-color: #eeeeee;
+  font-size: 0.7em;
+  width: calc(100vw / 1.8);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+form > input {
+  padding: 0.7em;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form > label {
+  margin-top: 15px;
+}
+
+/* general button styling */
+
+.btn {
+  outline: 0;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: none;
+  width: 100px;
+  border: 0.5px solid rgba(0, 0, 0, 0.37);
+  padding: 0.5rem 1rem;
+}
+
+.btn-danger {
+  color: white;
+  background: rgba(223, 75, 75, 0.993);
+}
+
+.btn-primary {
+  color: white;
+  background: rgba(156, 156, 197);
+}
+
+.add-movie-btn {
+  background: white;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+}
